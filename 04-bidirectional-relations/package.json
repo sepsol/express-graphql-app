@@ -1,0 +1,21 @@
+{
+  "name": "04-bidirectional-relations",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "db": "json-server --watch db.json --port 3000",
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
